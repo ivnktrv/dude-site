@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Cascadia+Mono:ital,wght@0,200..700;1,200..700&display=swap');
+
+body {
+    background-color: black;
+}
+
+video {
+    width: 100%;
+    position: relative;
+}
+
+#counter {
+    font-family: "Cascadia Mono", sans-serif;
+    color: rgb(0, 0, 0);
+    position: relative;
+}
+#counter:hover {
+    color: white;
+}
+
+#mc-server-ip {
+    background-color: #ffffff70;
+    font-size: 25px;
+    padding: 30px;
+    border-radius: 15px;
+    max-width: 80%;
+}
+@media screen and (max-width: 600px) {
+    #mc-server-ip {
+        font-size: 15px;
+    }
+}
