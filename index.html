@@ -1,9 +1,11 @@
+<!--
 <?php $allowed_routes = ['/'];
 if (!in_array($_SERVER['REQUEST_URI'], $allowed_routes)) {
     include('notfound.html');
     exit;
 }
 ?>
+-->
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -19,11 +21,13 @@ if (!in_array($_SERVER['REQUEST_URI'], $allowed_routes)) {
             <video src="videos/1.mp4" controls="control autoplay"></video> 
         </center>
 
+        <!--
         <br><br><br><br>
         <div id="counter">
             <center>
                 <?php include('counter.php'); ?>
             </center>
         </div>
+        -->
     </body>
 </html>
